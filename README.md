@@ -1,4 +1,5 @@
-# security-scripts
+# Security Scripts
+
 Python scripts built for network security and
 automation as part of my cybersecurity learning
 journey.
@@ -15,10 +16,18 @@ common ports are open or closed on a target IP.
 SMTP (25), DNS (53), HTTP (80), HTTPS (443),
 SMB (445), RDP (3389), HTTP-Alt (8080)
 
-**How it works:**
-Uses Python's socket library to attempt a TCP
-connection to each port. If the connection
-succeeds, the port is open. If it fails or
-times out, the port is closed.
+**How it works:** Uses Python's socket library to
+attempt a TCP connection to each port. If the
+connection succeeds, the port is open. If it fails
+or times out, the port is closed.
 
 **Usage:**
+\`\`\`python3 port-scanner.py\`\`\`
+
+**Note:** Only run against systems you own or have
+explicit written permission to test.
+
+---
+*Aditya Kulkarni*
+*Technical Associate — Intime Solutions, Bangalore*
+*B.Tech CSE — Cyber Security*
